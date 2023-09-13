@@ -1,11 +1,16 @@
 {% load static %}
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/builderjs/dist/builder.css"></link>
+    <script type='text/javascript' src="/builderjs/dist/builder.js"></script
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BuilderJS Test</title>
 </head>
 <body>
-    
+    <script language="Javascript">
+        var builder = new Editor({ root: "/builderjs/dist/" });
+        builder.init();
+    </script>
 </body>
 </html>
